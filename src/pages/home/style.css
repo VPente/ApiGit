@@ -1,0 +1,54 @@
+body,footer{
+    background: linear-gradient(68.15deg, #000000 16.62%, #7e7e7e 85.61%);
+}
+
+.main{
+    display: block;
+    flex-direction: column;
+   
+    
+    
+}
+.main header{
+    margin: 20px 0 25px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.main input{
+    width: 50%;
+    padding: 24px;
+    display: flex;
+    background: #e6e6e6db;
+    border-radius: 5px;
+    border: none;
+
+    font-size: 16px;
+}
+.main header button{
+    width: 50%;
+    padding: 24px;
+    font-weight: 700;
+    
+    background: linear-gradient(68.15deg, #fdf1f1 16.62%, #9b9595 85.61%);
+    color: #000000;
+    
+    border-radius: 5px;
+    margin: 12px 0 84px;
+    border: none;
+
+    cursor: pointer;
+    transition: filter 0.2s;
+
+    font-size: 16px;
+}
+
+.main button:hover{
+    filter: brightness(0.9);
+}
+.title{
+    color: #e6e6e6db;
+    font-size: 36px;
+    margin-bottom:6px;
+}
